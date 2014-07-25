@@ -73,3 +73,4 @@ if (numberofwolfs >= numberofbows) {
 	numberofwolfs -= numberofbows;
 	console.log("I will make sure i have enough bows just incase i encounter more then one wolf.")
 }
+
