@@ -45,3 +45,13 @@ if (huntingawolf === true) {
 	   else
 	   alert("its a wolf pack!! good thing my hunting rifle has a quick fire rate and I have my face and eye protected.!");	
 } else {
+	myprompt = prompt(" if its a wolf pack then what weapon will I choose?","type a weapon of choice");
+	   if (myprompt === "hunting rifle")
+	   	   alert("Great I will kill and servive the wolf pack because I used my hunting rifle..!!" ,myprompt);
+	   	else
+        alert(myname + " will lose the fight agaisnt the wolf pack.! Did not servive the wolf pack" ,myprompt);
+    
+}
+
+
+
