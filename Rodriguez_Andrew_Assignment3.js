@@ -53,5 +53,18 @@ if (huntingawolf === true) {
     
 }
 
+// Jason data
 
+var jasondata = {
+
+	"person": [
+	    }
+	       "myname": "Andrew"
+	       "I like to go wolf hunting: "Bow and arrow"
+	       },
+	       {
+	       	"favorite time of day": Night
+	        }
+]
+}:
 
