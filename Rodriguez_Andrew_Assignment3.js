@@ -30,3 +30,18 @@ console.log("if I decide to go with" ,protection2, "as protection my choice of w
 console.log("the" ,protection2, "is to protect my face and eyes because I would be using a" ,weapon1, "to hunt the wolf.");
 console.log("the" ,weapon2, "makes good for long distances and can be just as accurte as an" ,weapon1, "is.");
 console.log("Time to pick my combination of protection and weapon.");
+
+// Boolean
+
+huntingawolf = confirm("Am I going to hunt a wolf this afternoon?");
+
+// Conditionals
+
+if (huntingawolf === true) {
+	myprompt = prompt("how many wolfs am I going to hunt this afternoon?", "type number of wolfs");
+	myprompt = parseInt("1");
+	   if (myprompt <= 1)
+	   alert("its time to hunt a single wolf with my bow and arrow along with my long harden sleeves equiped.!!");
+	   else
+	   alert("its a wolf pack!! good thing my hunting rifle has a quick fire rate and I have my face and eye protected.!");	
+} else {
